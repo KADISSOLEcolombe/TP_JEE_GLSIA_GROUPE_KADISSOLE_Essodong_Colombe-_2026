@@ -1,4 +1,7 @@
-package EgaBankApplication;
+package com.example.backend.classes;
 
-public class TypeTransaction {
+public enum TypeTransaction {
+    DEPOT,
+    RETRAIT,
+    VIREMENT
 }

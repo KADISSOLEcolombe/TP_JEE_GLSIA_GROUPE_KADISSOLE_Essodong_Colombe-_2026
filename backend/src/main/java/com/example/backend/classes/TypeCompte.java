@@ -1,4 +1,6 @@
-package EgaBankApplication;
+package com.example.backend.classes;
 
-public class TypeCompte {
+public enum TypeCompte {
+    EPARGNE,
+    COURANT
 }
