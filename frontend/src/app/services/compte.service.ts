@@ -6,6 +6,8 @@ export interface Client {
   id: number;
   nom: string;
   prenom: string;
+  //nationality: string;
+  email: string;
 }
 
 export interface Compte {

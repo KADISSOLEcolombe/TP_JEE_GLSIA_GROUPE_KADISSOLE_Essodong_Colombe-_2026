@@ -66,8 +66,8 @@ public class ClientController {
                     if (clientDetails.getSexe() != null) {
                         client.setSexe(clientDetails.getSexe());
                     }
-                    if (clientDetails.getNationalité() != null) {
-                        client.setNationalité(clientDetails.getNationalité());
+                    if (clientDetails.getNationality() != null) {
+                        client.setNationality(clientDetails.getNationality());
                     }
                     return ResponseEntity.ok(clientRepository.save(client));
                 })

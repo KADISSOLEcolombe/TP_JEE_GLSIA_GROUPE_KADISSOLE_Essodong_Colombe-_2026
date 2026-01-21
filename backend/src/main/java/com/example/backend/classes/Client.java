@@ -58,7 +58,7 @@ public class Client {
     
     @NotBlank(message = "La nationalité est obligatoire")
     @Size(min = 2, max = 100, message = "La nationalité doit contenir entre 2 et 100 caractères")
-    private String nationalité;
+    private String nationality;
     @OneToMany(mappedBy = "client", cascade =
             CascadeType.ALL)
     private List<Compte> comptes = new ArrayList<>();
